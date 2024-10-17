@@ -1,0 +1,30 @@
+.login-register{
+
+    height: 100vh;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: 50%;
+
+}
+.card {
+    width: 50% !important;
+}
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 50% !important;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .card {
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .card {
+        width: 70% !important;
+    }
+}
